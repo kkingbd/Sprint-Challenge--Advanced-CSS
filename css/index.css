@@ -285,11 +285,10 @@ footer {
 }
 @media (max-width: 500px) {
   .walk {
-    width: 100%;
-    height: 100%;
+    margin: 5px 5px;
+    padding: 5px 10px 0 0;
   }
   .walk .walk-img {
-    width: 100%;
     order: -1;
     padding: 0 0;
     margin: 0;
@@ -306,8 +305,18 @@ footer {
 .walk .walk-text h3 {
   margin-bottom: 10px;
 }
+@media (max-width: 500px) {
+  .walk .walk-text h3 {
+    margin: 5px 10px;
+  }
+}
 .walk .walk-text p {
   margin-bottom: 26px;
+}
+@media (max-width: 500px) {
+  .walk .walk-text p {
+    margin: 5px 10px;
+  }
 }
 .walk .walk-text .btn {
   -webkit-border-radius: 15px;
@@ -333,9 +342,41 @@ footer {
   background: #FFFFFF;
   color: #17A2B8;
 }
+@media (max-width: 500px) {
+  .walk .walk-text .btn {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+  .walk .walk-text .btn:hover {
+    background: #FFFFFF;
+    color: #17A2B8;
+  }
+}
+@media (max-width: 500px) and (max-width: 500px) {
+  .walk .walk-text .btn {
+    width: 100%;
+  }
+}
 .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .walk .walk-img {
+    width: 100%;
+    margin-left: 2%;
+  }
 }
 .walk .walk-img img {
   width: 100%;
